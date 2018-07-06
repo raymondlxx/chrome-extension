@@ -2,7 +2,8 @@
   "background": {
     "persistent": false,
     "scripts": [
-      "background.js"
+      "background.js",
+      "eventPage.js"
     ]
   },
   "description": "Build an Extension!",
@@ -27,7 +28,9 @@
   "permissions": [
     "activeTab",
     "declarativeContent",
-    "storage"
+    "storage",
+    "alarms",
+    "contextMenus"
   ],
   "version": "1.0"
 }
